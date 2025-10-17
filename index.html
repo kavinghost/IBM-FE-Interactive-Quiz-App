@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IBM-FE Interactive Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>IBM-FE Interactive Quiz App</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <div id="question">Question text</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+      <button id="next-btn" class="next-btn btn">Next</button>
+    </div>
+    <div id="result" class="hide">
+      <h2>You scored <span id="score"></span> out of <span id="total-questions"></span></h2>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
